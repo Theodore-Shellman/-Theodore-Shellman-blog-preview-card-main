@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Figtree";
+  font-style: bold;
+  /* Replace with the appropriate font weight */
+  font-weight: 800;
+  /* Replace with the correct file path */
+  src: url("../fonts/static/Figtree-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Figtree";
+  font-style: SemiBold;
+  /* Replace with the appropriate font weight */
+  font-weight: 600;
+  /* Replace with the correct file path */
+  src: url("../fonts/static/Figtree-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Figtree";
+    font-style: medium;
+    /* Replace with the appropriate font weight */
+    font-weight: 500;
+    /* Replace with the correct file path */
+    src: url("../fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+  }
+  
+  

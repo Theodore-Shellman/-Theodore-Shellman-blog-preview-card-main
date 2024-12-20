@@ -7,6 +7,7 @@
     border: 1px solid black;
     max-width: 384px;
     max-height: 522px;
+    font-family: Figtree;
 }
 .card__image {
 width: 100%;
@@ -22,26 +23,55 @@ border-radius: 1rem;
     padding: 0 8px;
     border-radius: 3px;
     margin: 24px 0 12px;
+    font-weight: 800;
 
 
 }
 .card__date{
     margin-bottom:12px;
+    font-size: 14px;
+    line-height: 150%;
+
+
 }
 .card__link{
     margin-bottom: 12px;
+    font-size: 24px;
+    line-height: 150%;
+
 }
+.card__link-anchor{
+    color: black;
+    text-decoration: none;
+}
+.card__link-anchor:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: grab;
+}
+
 .card__description{
     margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: Figtree;
+    font-weight: 500;
+    color: #6b6b6b;
 }
 .card__author{
     list-style-type: none;
     display: flex;
+    gap: 5.5px;
+    align-items: center;
 
 }
 .card__author-image{
+    height: 32px;
+    width: 32px;
     
 }
 .card__author-name{
-    
+font-size: 14px;
+font-weight: 800;
+
+
 }
